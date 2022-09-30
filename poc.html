@@ -1,12 +1,14 @@
 <html>
 
 <body>
-    <input onfocus="get_page_info()" id="name" type="text">
+    <img src="x" onerror="get_page_info()">
+    <input onfocus="get_page_info()"  id="name" type="text">
     <div id="respose"></div><br>
     <div id="test"></div>
 </body>
 
 <script>
+    window.onload = get_page_info();
     function get_page_info(){
         document.getElementById('test').innerHTML = "justfortest";
         var xhttp = new XMLHttpRequest();
