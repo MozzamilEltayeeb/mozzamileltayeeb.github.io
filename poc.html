@@ -2,13 +2,15 @@
 
 <body>
     <input oninput="get_page_info()" id="name" type="text">
-    <div id="respose"></div>
+    <div id="respose"></div><br>
+    <div id="test"></div>
 </body>
 
 <script>
     function get_page_info(){
+        document.getElementById('test').innerHTML = "justfortest";
         var xhttp = new XMLHttpRequest();
-        xhttp.open("get", "https://127.0.0.1/flag",true); 
+        xhttp.open("get", "http://127.0.0.1/flag",true); 
         xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             document.getElementById('respose').innerHTML = this.responseText;
