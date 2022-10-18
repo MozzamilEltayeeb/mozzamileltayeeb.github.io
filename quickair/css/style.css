@@ -1,6 +1,11 @@
 /*----------------------------------
 	Common HTML elements and more for easier usage
 ------------------------------------*/
+@font-face {
+  font-family: "arabic_cairo";
+  src: url("../fonts/Cairo-VariableFont_wght.ttf") format("truetype");
+}
+
 html {
   overflow-x: hidden;
 }
@@ -16,7 +21,7 @@ html {
 
 body {
   font-size: 1rem;
-  font-family: Lato, sans-serif;
+  font-family: arabic_cairo;
   color: #222324;
   line-height: 1.6;
   background-color: #fff;
@@ -25,7 +30,7 @@ body {
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
-  font-family: Montserrat, sans-serif;
+  font-family: arabic_cairo;
   line-height: 1.2;
   color: #242424;
   margin-top: 0;
@@ -367,7 +372,7 @@ fieldset[disabled] .s-btn {
   bottom: -1rem;
   z-index: -1;
   font-size: 9.375rem;
-  font-family: Playfair Display, serif;
+  font-family: arabic_cairo;
   color: rgba(245, 248, 249, 0.8);
   content: "\0026";
 }
@@ -1902,7 +1907,7 @@ fieldset[disabled] .s-btn {
   display: block;
   font-size: 0.8125rem;
   font-weight: 700;
-  font-family: Montserrat, sans-serif;
+  font-family: arabic_cairo;
   color: rgba(255, 255, 255, 0.75);
   line-height: 5.5rem;
   text-transform: uppercase;
@@ -1967,7 +1972,7 @@ fieldset[disabled] .s-btn {
 .s-header-v2__dropdown-menu-link {
   font-size: 0.875rem;
   font-weight: 400;
-  font-family: Lato, sans-serif;
+  font-family: arabic_cairo;
   color: rgba(34, 35, 36, 0.7) !important;
   padding: .4375rem 2rem .4375rem 1.375rem !important;
   transition-duration: 300ms;
@@ -2068,7 +2073,7 @@ fieldset[disabled] .s-btn {
   display: block;
   font-size: 0.75rem;
   font-style: normal;
-  font-family: themify;
+  font-family: arabic_cairo;
   color: #fff;
   line-height: 3rem;
   content: "\e627";
@@ -2283,7 +2288,7 @@ fieldset[disabled] .s-btn {
   top: 0;
   right: 0;
   font-size: 0.75rem;
-  font-family: themify;
+  font-family: arabic_cairo;
   color: #656565;
   content: "\e646";
 }
